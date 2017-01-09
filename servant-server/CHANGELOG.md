@@ -1,3 +1,11 @@
+0.10
+----
+
+* Deprecate `serveDirectory` and introduce `serveDirectoryFileServer`,
+  `serveDirectoryWebApp`, `serveDirectoryWebAppLookup`, `serveDirectoryEmbedded`
+  and `serveDirectoryWith` which offer 4 default options and a more flexible
+  one for serving static files.
+
 0.7.1
 ------
 
